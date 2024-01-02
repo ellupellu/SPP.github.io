@@ -3,12 +3,12 @@
     "name": "Suomen Parhaat Puolueet",
     "icons": [
       {
-        "src": "sppuolueet.uk/images/SPP_websitelogox192.png",
+        "src": "/images/SPP_websitelogox192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "sppuolueet.uk/images/SPP_websitelogox512.png",
+        "src": "/images/SPP_websitelogox512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
