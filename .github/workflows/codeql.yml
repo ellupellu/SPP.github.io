@@ -9,16 +9,11 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "CodeQL"
+name: "Testbranch_CodeQL_SelfHosted"
 
 on:
-  push:
-    branches: [ "testbranch" ]
-  pull_request:
-    branches: [ "testbranch" ]
-  schedule:
-    - cron: '27 22 * * 5'
-
+  workflow_dispatch:
+  
 jobs:
   analyze:
     name: Analyze
